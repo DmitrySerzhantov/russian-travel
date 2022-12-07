@@ -1,0 +1,11 @@
+.header__lang {
+  margin-top: 7px;
+  padding-right: 2px;
+}
+
+.header__lang :nth-child(1) {
+  margin-right: 15px;
+  font-size: 18px;
+  line-height: 20px;
+  border-bottom: 1px solid #ffffff;
+}
