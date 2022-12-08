@@ -5,3 +5,11 @@
   text-align: center;
   margin: 16px 16px 0 16px;
 }
+
+@media (min-width: 768px) {
+  .lead__subtitle {
+    font-size: 30px;
+    line-height: 36px;
+    margin: 32px 16px 0 16px;
+  }
+}

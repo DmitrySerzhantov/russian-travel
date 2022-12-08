@@ -7,3 +7,13 @@
   justify-content: center;
   margin-bottom: 64px;
 }
+
+@media (min-width: 768px) {
+  .photo-grid {
+    max-width: 94%;
+    display: grid;
+    grid-template-columns: repeat(2, min(352px));
+    gap: 16px;
+    margin: 88px auto 0;
+  }
+}

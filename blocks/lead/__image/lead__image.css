@@ -1,17 +1,57 @@
 .lead__image {
   background-image: url(../../../images/kalegin-michail-179870-unsplash.png);
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  min-height: 200px;
   margin-top: 40px;
-  object-fit: cover;
+  padding-top: 8.8%;
+  padding-bottom: 26%;
+  padding-left: 2%;
+  min-width: 98%;
+  right: 20px;
 }
 
-.lead__image img {
-  padding-top: 30px;
-  display: block;
-  object-fit: cover;
-  width: 96%;
-  margin: 0 auto;
-  margin-left: 5px;
+@media (min-width: 768px) {
+  .lead__image {
+    background-image: url(../../../images/kalegin-michail-179870-unsplash768px.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 56px;
+    padding-top: 8.8%;
+    padding-bottom: 26%;
+    padding-left: 2%;
+    min-width: 98%;
+    right: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lead__image {
+    background-image: url(../../../images/kalegin-michail-179870-unsplash1024px.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    padding-top: 8.8%;
+    padding-bottom: 26%;
+    padding-left: 2%;
+    min-width: 98%;
+    right: 20px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .lead__image {
+    background-image: url(../../../images/kalegin-michail-179870-unsplash1280px.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    padding-top: 8.8%;
+    padding-bottom: 26%;
+    padding-left: 2%;
+    min-width: 98%;
+    right: 20px;
+  }
 }
