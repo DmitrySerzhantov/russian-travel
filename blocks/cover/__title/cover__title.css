@@ -7,3 +7,13 @@
   margin: 0 auto;
   padding-top: 33px;
 }
+
+@media (min-width: 768px) {
+  .cover__title {
+    font-size: 72px;
+    line-height: 76px;
+    padding-top: 115px;
+    max-width: 560px;
+    margin: 0 auto;
+  }
+}

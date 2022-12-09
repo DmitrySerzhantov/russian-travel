@@ -1,4 +1,12 @@
-.footer__link {
+.footer__nav {
   display: flex;
   flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .footer__nav {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 18px;
+  }
 }

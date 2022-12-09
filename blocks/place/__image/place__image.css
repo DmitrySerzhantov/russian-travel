@@ -2,3 +2,11 @@
   margin-top: 32px;
   min-width: 100%;
 }
+
+@media (min-width: 768px) {
+  .place__image {
+    grid-row: span 3;
+    align-items: start;
+    margin-top: 48px;
+  }
+}
