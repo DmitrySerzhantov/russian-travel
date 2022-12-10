@@ -21,3 +21,14 @@
     opacity: 0.8;
   }
 }
+@media (min-width: 1024px) {
+  .footer__link {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .footer__link {
+    margin: 0;
+  }
+}

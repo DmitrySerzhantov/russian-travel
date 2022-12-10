@@ -21,9 +21,20 @@
     display: grid;
     grid-template-columns: min(439px) min(458px);
     grid-template-rows: repeat(3, auto);
-    margin: 73px auto 0;
+    margin: 75px auto 0;
     max-width: 100%;
     gap: 28px;
+    row-gap: 0px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .place {
+    grid-template-columns: min(460px) min(485px);
+    grid-template-rows: repeat(3, auto);
+    margin: 78px auto 0;
+    max-width: 100%;
+    gap: 40px;
     row-gap: 0px;
   }
 }

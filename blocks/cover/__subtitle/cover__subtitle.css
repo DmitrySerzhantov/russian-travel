@@ -22,3 +22,9 @@
     padding-bottom: 195px;
   }
 }
+
+@media (min-width: 1280px) {
+  .cover__subtitle {
+    padding-bottom: 245px;
+  }
+}

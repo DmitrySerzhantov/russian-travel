@@ -20,3 +20,12 @@
     margin: 90px auto 0;
   }
 }
+
+@media (min-width: 1280px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 92%;
+    margin: 90px auto 0;
+  }
+}

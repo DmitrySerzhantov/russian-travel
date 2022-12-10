@@ -14,7 +14,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     min-width: 100%;
-    margin-top: 70px;
+    margin-top: 20px;
   }
 }
 
@@ -26,5 +26,16 @@
     background-repeat: no-repeat;
     min-width: 100%;
     margin-top: 92px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .cover {
+    background-image: url("../../images/__backgroundcover1280.png");
+    background-size: 93%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    margin-top: 80px;
   }
 }
