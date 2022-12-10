@@ -15,3 +15,18 @@
     margin: 88px auto 0;
   }
 }
+
+@media (min-width: 1024px) {
+  .intro__title {
+    max-width: 90%;
+    font-size: 54px;
+    line-height: 58px;
+    margin: 90px auto 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .intro__title {
+    margin: 93px 0 0 148px;
+  }
+}

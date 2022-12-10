@@ -29,29 +29,25 @@
 @media (min-width: 1024px) {
   .lead__image {
     background-image: url(../../../images/kalegin-michail-179870-unsplash1024px.jpg);
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
     margin-top: 40px;
-    padding-top: 8.8%;
-    padding-bottom: 26%;
+    padding-top: 10.8%;
+    padding-bottom: 27%;
     padding-left: 2%;
-    min-width: 98%;
-    right: 20px;
   }
 }
 
 @media (min-width: 1280px) {
   .lead__image {
     background-image: url(../../../images/kalegin-michail-179870-unsplash1280px.png);
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    margin-top: 40px;
-    padding-top: 8.8%;
-    padding-bottom: 26%;
+    margin-top: 52px;
+    padding-top: 10%;
+    padding-bottom: 27%;
     padding-left: 2%;
-    min-width: 98%;
-    right: 20px;
   }
 }

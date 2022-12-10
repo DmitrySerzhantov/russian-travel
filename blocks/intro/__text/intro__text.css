@@ -11,3 +11,18 @@
     max-width: 94%;
   }
 }
+
+@media (min-width: 1024px) {
+  .intro__text {
+    max-width: 70%;
+    margin: 40px 0 0 48px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .intro__text {
+    max-width: 55%;
+    margin: 40px 0 0 148px;
+    line-height: 163%;
+  }
+}

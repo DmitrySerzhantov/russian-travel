@@ -16,3 +16,9 @@
     margin: 32px auto 0;
   }
 }
+
+@media (min-width: 1024px) {
+  .cover__subtitle {
+    padding-bottom: 195px;
+  }
+}

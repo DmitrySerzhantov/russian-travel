@@ -1,6 +1,6 @@
 .footer {
   font-family: "Inter-Regular", "Arial", "Helvetica", sans-serif;
-  margin-top: 64px;
+  margin-top: 66px;
 }
 
 @media (min-width: 768px) {
@@ -8,6 +8,15 @@
     display: flex;
     justify-content: space-between;
     max-width: 94%;
+    margin: 90px auto 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
     margin: 90px auto 0;
   }
 }

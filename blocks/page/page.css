@@ -1,17 +1,6 @@
 .page {
-  margin: 0 auto;
-  box-sizing: border-box;
-  max-width: 425px;
+  max-width: 100%;
   color: #ffffff;
-}
-
-@media (min-width: 425px) {
-  .page {
-    margin: 0 auto;
-    box-sizing: border-box;
-    max-width: 768px;
-    color: #ffffff;
-  }
 }
 
 @media (min-width: 768px) {

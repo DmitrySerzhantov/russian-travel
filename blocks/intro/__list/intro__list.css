@@ -19,3 +19,15 @@
     max-width: 94%;
   }
 }
+
+@media (min-width: 1024px) {
+  .intro__list {
+    margin: 32px 0 0 48px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .intro__list {
+    margin: 32px 0 0 148px;
+  }
+}

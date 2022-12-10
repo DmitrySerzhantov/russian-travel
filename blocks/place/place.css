@@ -1,7 +1,25 @@
+.place {
+  padding: 0;
+  max-width: 100%;
+  margin: 50px auto 0;
+}
+
 @media (min-width: 768px) {
   .place {
     display: grid;
     grid-template-columns: auto min(352px);
+    grid-template-rows: repeat(3, auto);
+    margin: 73px auto 0;
+    max-width: 100%;
+    gap: 28px;
+    row-gap: 0px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .place {
+    display: grid;
+    grid-template-columns: min(439px) min(458px);
     grid-template-rows: repeat(3, auto);
     margin: 73px auto 0;
     max-width: 100%;

@@ -13,3 +13,17 @@
     max-width: 94%;
   }
 }
+
+@media (min-width: 1024px) {
+  .header {
+    margin: 28px auto 0;
+    max-width: 90%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .header {
+    margin: 28px auto 0;
+    max-width: 92.7%;
+  }
+}

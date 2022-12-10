@@ -4,5 +4,27 @@
   background-position: center center;
   background-repeat: no-repeat;
   min-width: 100%;
-  margin-top: 66px;
+  margin-top: 70px;
+}
+
+@media (min-width: 768px) {
+  .cover {
+    background-image: url("../../images/__backgroundcover768.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    margin-top: 70px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cover {
+    background-image: url("../../images/__backgroundcover1024.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    margin-top: 92px;
+  }
 }
