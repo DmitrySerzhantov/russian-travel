@@ -11,3 +11,9 @@
     align-self: end;
   }
 }
+
+@media (min-width: 1280px) {
+  .place__website {
+    margin-top: 1px;
+  }
+}

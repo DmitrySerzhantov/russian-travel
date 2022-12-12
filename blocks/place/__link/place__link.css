@@ -10,3 +10,9 @@
 .place__link:hover {
   opacity: 0.8;
 }
+
+@media (min-width: 1280px) {
+  .place__link {
+    margin-top: 10px;
+  }
+}

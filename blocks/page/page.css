@@ -1,30 +1,4 @@
 .page {
   max-width: 100%;
-  color: #ffffff;
-}
-
-@media (min-width: 768px) {
-  .page {
-    margin: 0 auto;
-    box-sizing: border-box;
-    max-width: 1024px;
-    color: #ffffff;
-  }
-}
-
-@media (min-width: 1024px) {
-  .page {
-    margin: 0 auto;
-    box-sizing: border-box;
-    max-width: 1280px;
-    color: #ffffff;
-  }
-}
-
-@media (min-width: 1280px) {
-  .page {
-    margin: 0 auto;
-    box-sizing: border-box;
-    color: #ffffff;
-  }
+  box-sizing: border-box;
 }

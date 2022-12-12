@@ -1,3 +1,5 @@
 .photo-grid__item {
   justify-self: stretch;
+  height: 100%;
+  object-fit: cover;
 }

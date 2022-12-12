@@ -23,12 +23,15 @@
     grid-template-columns: min(440px) min(456px);
     margin-top: 75px;
     max-width: 100%;
+    row-gap: 3px;
   }
 }
 
 @media (min-width: 1280px) {
   .place {
     grid-template-columns: min(460px) min(484px);
-    margin-top: 78px;
+    margin-top: 79px;
+    gap: 40px;
+    row-gap: 0px;
   }
 }

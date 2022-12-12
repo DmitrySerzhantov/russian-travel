@@ -4,7 +4,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   min-width: 100%;
-  margin-top: 63px;
+  margin-top: 65px;
 }
 
 @media (min-width: 768px) {
@@ -15,15 +15,13 @@
 
 @media (min-width: 1024px) {
   .cover {
-    margin-top: 103px;
+    margin-top: 90px;
   }
 }
 
 @media (min-width: 1280px) {
   .cover {
-    max-width: 100%;
     background-size: 93%;
     margin-top: 95px;
-    min-width: 0;
   }
 }

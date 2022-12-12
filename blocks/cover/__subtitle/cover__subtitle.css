@@ -2,28 +2,14 @@
   text-align: center;
   font-size: 14px;
   line-height: 16px;
-  padding: 0 0 33px 0;
-  margin: 16px 0 0 0;
+  margin: 0;
 }
 
 @media (min-width: 768px) {
   .cover__subtitle {
     font-size: 18px;
     line-height: 22px;
-    padding-bottom: 115px;
     max-width: 360px;
-    margin: 32px auto 0;
-  }
-}
-
-@media (min-width: 1024px) {
-  .cover__subtitle {
-    padding-bottom: 195px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .cover__subtitle {
-    padding-bottom: 245px;
+    margin-top: 32px;
   }
 }

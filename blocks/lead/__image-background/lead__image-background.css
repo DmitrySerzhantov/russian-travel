@@ -1,9 +1,0 @@
-.lead__image-background {
-  max-width: 100%;
-}
-
-@media (min-width: 1280px) {
-  .lead__image-background {
-    min-width: 100%;
-  }
-}
