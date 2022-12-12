@@ -1,0 +1,12 @@
+.place__paragraph-container {
+  margin-top: 27px;
+  margin-left: 16px;
+  display: grid;
+  gap: 25px;
+}
+@media (min-width: 768px) {
+  .place__paragraph-container {
+    margin-top: 45px;
+    margin-left: 0;
+  }
+}

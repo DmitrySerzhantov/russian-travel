@@ -1,18 +1,19 @@
 .place__title {
-  font-family: "Inter-Black", "Arial", "Helvetica", sans-serif;
   font-weight: 900;
   font-size: 32px;
   line-height: 35px;
   max-width: 90%;
-  margin: 0 auto;
+  margin-left: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 @media (min-width: 768px) {
   .place__title {
+    margin-left: 0;
     font-size: 42px;
     line-height: 46px;
-    max-width: 97%;
-    margin: 0;
+    max-width: 96.1%;
   }
 }
 
@@ -20,7 +21,5 @@
   .place__title {
     font-size: 72px;
     line-height: 76px;
-    max-width: 97%;
-    margin: 0;
   }
 }

@@ -1,28 +1,20 @@
 .place__paragraph {
-  font-family: "Inter-Regular", "Arial", "Helvetica", sans-serif;
-  max-width: 90%;
-  margin: 29px auto 0;
-  line-height: 163%;
-}
-
-.place p:last-child {
-  margin-top: 24px;
+  margin: 0;
+  padding: 0;
+  max-width: 94%;
+  line-height: 26px;
 }
 
 @media (min-width: 768px) {
   .place__paragraph {
     max-width: 100%;
-    margin: 47px 0 0 0;
-  }
-  .place p:last-child {
-    margin-top: 25px;
+    font-size: 16px;
+    line-height: 26px;
   }
 }
-
 @media (min-width: 1024px) {
   .place__paragraph {
-    max-width: 100%;
-    margin: 47px 0 0 0;
     font-size: 18px;
+    line-height: 29px;
   }
 }

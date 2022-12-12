@@ -1,9 +1,9 @@
 .footer__link {
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
   font-size: 24px;
   line-height: 24px;
-  margin: 0px 0 0 16px;
+  margin-left: 16px;
   padding-bottom: 32px;
 }
 
@@ -11,24 +11,21 @@
   padding: 0;
 }
 
+.footer__link:hover {
+  opacity: 0.8;
+}
+
 @media (min-width: 768px) {
   .footer__link {
-    margin: 0 0 24px 0;
+    margin-left: 0;
+    margin-bottom: 24px;
     font-size: 16px;
     line-height: 18px;
   }
-  .footer__link:hover {
-    opacity: 0.8;
-  }
-}
-@media (min-width: 1024px) {
-  .footer__link {
-    margin: 0;
-  }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1024px) {
   .footer__link {
-    margin: 0;
+    margin-bottom: 0;
   }
 }

@@ -2,9 +2,8 @@
   font-weight: 900;
   line-height: 44px;
   font-size: 40px;
-  font-family: "Inter-Black", "Arial", "Helvetica", sans-serif;
   max-width: 90%;
-  margin: 46px auto 0;
+  margin: 49px auto 0;
   text-align: center;
 }
 
@@ -23,7 +22,7 @@
 
 @media (min-width: 1280px) {
   .lead__title {
-    max-width: 70%;
+    max-width: 63%;
     margin-top: 53px;
   }
 }

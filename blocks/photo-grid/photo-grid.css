@@ -30,10 +30,6 @@
 
 @media (min-width: 1280px) {
   .photo-grid {
-    max-width: 94%;
-    display: grid;
     grid-template-columns: repeat(4, min(284px));
-    gap: 16px;
-    margin: 90px auto 15px;
   }
 }

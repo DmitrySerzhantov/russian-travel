@@ -3,8 +3,16 @@
   color: #ffffff;
   text-decoration: none;
   background-color: rgba(42, 44, 47, 0.3);
+  max-width: 100%;
 }
 
 .cover__link:hover {
   background-color: rgba(42, 44, 47, 0.8);
+}
+
+@media (min-width: 1280px) {
+  .cover__link {
+    max-width: 93%;
+    margin: 0 auto;
+  }
 }

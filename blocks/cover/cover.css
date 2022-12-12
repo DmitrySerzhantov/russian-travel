@@ -1,41 +1,29 @@
 .cover {
-  background-image: url("../../images/__backgroundcover.png");
+  background-image: url("../../images/__backgroundcover1280.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   min-width: 100%;
-  margin-top: 70px;
+  margin-top: 63px;
 }
 
 @media (min-width: 768px) {
   .cover {
-    background-image: url("../../images/__backgroundcover768.png");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    min-width: 100%;
-    margin-top: 20px;
+    margin-top: 85px;
   }
 }
 
 @media (min-width: 1024px) {
   .cover {
-    background-image: url("../../images/__backgroundcover1024.png");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    min-width: 100%;
-    margin-top: 92px;
+    margin-top: 103px;
   }
 }
 
 @media (min-width: 1280px) {
   .cover {
-    background-image: url("../../images/__backgroundcover1280.png");
+    max-width: 100%;
     background-size: 93%;
-    background-position: center center;
-    background-repeat: no-repeat;
-    min-width: 100%;
-    margin-top: 80px;
+    margin-top: 95px;
+    min-width: 0;
   }
 }

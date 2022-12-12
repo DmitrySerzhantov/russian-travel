@@ -1,23 +1,17 @@
-.place__image img {
-  min-width: 100%;
+.place__image {
+  max-width: 100%;
   margin-top: 30px;
 }
 
 @media (min-width: 768px) {
   .place__image {
     grid-row: span 3;
-    align-items: start;
-    margin-top: 48px;
+    margin-top: 49px;
   }
 }
 
 @media (min-width: 1024px) {
   .place__image {
-    grid-row: span 3;
-    align-items: start;
-    margin-top: 48px;
-  }
-  .place__image img {
-    margin-top: 0px;
+    min-width: 100%;
   }
 }

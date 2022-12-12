@@ -1,1 +1,21 @@
-.header__logo {}
+.header__logo {
+  max-width: 142px;
+}
+
+@media (min-width: 768px) {
+  .header__logo {
+    min-width: 25%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header__logo {
+    min-width: 19%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .header__logo {
+    min-width: 15%;
+  }
+}
