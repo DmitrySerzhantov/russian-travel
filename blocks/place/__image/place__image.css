@@ -1,6 +1,7 @@
 .place__image {
-  max-width: 100%;
+  min-width: 100%;
   margin-top: 30px;
+  max-width: 100%;
 }
 
 @media (min-width: 768px) {
