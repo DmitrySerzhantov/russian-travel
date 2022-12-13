@@ -6,7 +6,6 @@
 @media (min-width: 768px) {
   .footer__nav {
     display: grid;
-    grid-template-columns: repeat(auto, auto);
     grid-auto-flow: column;
     gap: 18px;
   }
